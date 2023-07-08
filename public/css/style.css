@@ -1,0 +1,315 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+
+body
+{
+    background-color: #282828;
+    color: #908f8f;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+h1
+{
+    padding: 25px;
+    color: #83BAFF;
+    font-weight: 100;
+}
+
+h3
+{
+    color: #83BAFF;
+    margin-bottom: 0;
+            
+}
+
+a 
+{
+    text-decoration: none;
+    color: #83BAFF;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    color: #83BAFF;
+}
+
+.content
+{
+    padding:3rem;
+}
+
+.scene
+{
+    width: 600px;
+    height: 300px;
+}
+
+#ascene
+{
+    z-index: 0;
+}
+.scene-over
+{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    z-index:1;
+    overflow: hidden;
+}
+
+.header
+{
+    background-color: #282828;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 100%);
+    z-index: 0;
+    min-height:460px;
+}
+
+.element-container
+{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 0;
+    right: 0;
+    top:420px;
+    margin: auto;
+    background-color: #dddddd;
+    box-shadow: 0px 3px 5px #344b67;
+    color: #344b67;
+    border: solid 5px #344b67;
+    font-weight: bold;
+    border-radius: 8px;
+    padding:10px 20px;
+    text-align: center;
+    z-index: 2;
+}
+
+#element-number
+{
+    position: absolute;
+    top:4px;
+    left: 4px;
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+}
+
+#element-symbol
+{
+   font-size: 4rem;
+}
+
+#element-name
+{
+   font-size: 0.9rem;
+}
+
+#element-mass
+{
+   font-size: 0.8rem;
+}
+
+
+
+.bd-top
+{
+    border-top: solid thin #344b67;
+}
+
+.max-500
+{
+    max-width: 700px;
+}
+
+.bold
+{
+    /* font-weight: bold; */
+    color: #344b67;
+}
+
+
+
+.console
+{
+    font-family: JetBrainsMono,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-size: 0.8rem;
+    /*padding-left: 12px;*/
+    background-color: #333333;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.get
+{
+    background-color: green;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    padding:4px 6px;
+    color: white;
+}
+
+.method
+{
+    color:#555555;
+    font-size: 0.8rem;
+    padding-right:2px;
+}
+
+.params
+{
+    color:#83BAFF;
+}
+
+.method-container
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid thin #363636;
+    background-color: #222222;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.method-name
+{
+    color:#83BAFF;
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.method-url
+{
+    display: flex;
+    column-gap: 10px;
+    flex-direction: column;
+}
+
+.method-option
+{
+    color:#727272;
+    font-size: 0.8rem;
+}
+
+.clipboard
+{
+    width:18px;
+    height:18px;
+    background-color: transparent;
+    border: 0;
+    background-image: url('../img/clipboard.svg');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    padding-left:6px;
+}
+
+
+.footer img
+{
+    width: 50px;
+}
+
+.footer p 
+{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.a-modal 
+{
+    display: none!important;
+}
+
+
+@media only screen and (max-width: 767px) 
+{
+    .content
+    {
+        padding: 0.35rem;
+    }
+
+    .console
+    {
+        font-size: 0.7rem;
+    }
+
+    .clipboard
+    {
+        width:14px;
+        height:14px;
+        background-size: 14px;
+        vertical-align:-2px;
+    }
+
+    .scene
+    {
+        width: 550px;
+        height: 300px;
+        
+    }
+
+    .scene-over
+    {
+        width: 550px;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 567px) 
+{
+    .content
+    {
+        padding: 0.25rem;
+    }
+
+    .console
+    {
+        font-size: 0.5rem;
+    }
+
+    .clipboard
+    {
+        width:14px;
+        height:14px;
+        background-size: 14px;
+        vertical-align:-3px;
+        
+    }
+
+    .scene
+    {
+        width: 320px;
+        height: 300px;
+        
+    }
+
+    .scene-over
+    {
+        width: 320px;
+        height: 300px;
+    }
+}
+
+.Actinides          { color:#B34D8F }
+.Alcalins           { color:#F0671F }
+.Alcalino-terreux   { color:#FDB52D }
+.Gaznobles          { color:#0065A7 }
+.Halogènes          { color:#00A0DE }
+.Lanthanides        { color:#C7152B }
+.Métalloïdes        { color:#7BC13D }
+.Métauxtransition   { color:#693C97 }
+.Métauxpauvres      { color:#006535 }
+.Non-métaux         { color:#929397 }
+.Nonclassés         { color:#dddddd }
