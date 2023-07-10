@@ -25,12 +25,12 @@
             <div class="row pt-5 pb-3">
                 <div class="col pt-5">
                     <h2>À propos</h2>
-                    <p class="pt-4 ps-5 pe-5">Bienvenue sur la page d'éléments api, cette api et un projet personnel qui, à l'origine, découle d'un projet de film auquel j'ai participé en 
-                        collaboration avec l'office national du film. Durant ce projet, j'avais pour mandat de créer des visuels génératif 3D pour certaines des scènes du film KYMA, 
+                    <p class="pt-4 ps-5 pe-5">Bienvenue sur la page d'éléments api, cette api et un projet personnel qui, à l'origine, découle d'un projet de film immersif auquel j'ai participé en 
+                        collaboration avec l'Office national du film du Canada. Durant ce projet, j'avais pour mandat de créer des visuels génératif 3D pour certaines des scènes du film <a href="https://blogue.onf.ca/blogue/2017/07/21/kyma-plongez-au-coeur-des-ondes/" target="_blank">KYMA</a>, 
                         qui consistait en un voyage de l'infiniment grand à l'infiniment petit. 
                     </p>
                     <p class="ps-5 pe-5">
-                        Cette api contient l'entièreté des données provenant du tableau périodique et a été utiliser pour la production de composant visuel à l'aide de script python et 
+                        Cette api contient l'entièreté des données du tableau périodique et a été utiliser pour la production de composant visuel à l'aide de script Python et 
                         du logiciel Blender. J'ai rendu l'api publique afin que quiconque lui trouvant une utilité puisse l'utiliser.  
                     </p> 
                     
@@ -40,7 +40,7 @@
                     </p>
                     
                     <p class="ps-5 pe-5">
-                        Le projet est aussi disponible en Open Source sur le site <a href="https://github.com/SebastienGravel/elements-api" target="">GitHub</a>. 
+                        Le projet est aussi disponible en Open Source sur le site <a href="https://github.com/SebastienGravel/elements-api" target="_blank">GitHub</a>. 
                         Il s'agit d'un projet utilisant le Framework PHP Laravel ainsi que le Framework Javascript A-Frame pour l'animation 3D.
                     </p class="ps-5 pe-5 pb-5">
                 </div>
