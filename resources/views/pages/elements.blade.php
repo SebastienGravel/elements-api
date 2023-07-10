@@ -8,10 +8,10 @@
         
             <div class="scene ">
                 <div class="element-container" id="element-container">
-                    <div id="element-number">118</div>
-                    <div id="element-symbol">Ff</div>
-                    <div id="element-name">Mendélévium</div>
-                    <div id="element-mass">132.9054519</div>
+                    <div id="element-number"></div>
+                    <div id="element-symbol"></div>
+                    <div id="element-name"></div>
+                    <div id="element-mass"></div>
                 </div>
                 <div class="scene-over"></div>
                 <a-scene embedded id="ascene" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
